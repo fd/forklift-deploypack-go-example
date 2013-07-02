@@ -19,6 +19,8 @@ func (h *handler) ProcessConfiguration(ctx *command.Context) error {
 		return err
 	}
 
+	// Do something with the config here.
+
 	err = ctx.DumpConfig(config)
 	if err != nil {
 		return err
