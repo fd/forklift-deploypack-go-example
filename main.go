@@ -1,7 +1,7 @@
 package main
 
 import (
-	"bitbucket.org/mrhenry/forklift/deploypack/command"
+	"github.com/fd/forklift/deploypack/command"
 )
 
 func main() { command.Run(&handler{}) }

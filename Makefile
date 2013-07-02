@@ -7,6 +7,6 @@ build: deps
 	GOOS=darwin GOARCH=amd64 go build -o bin/deploy-darwin-amd64 main.go
 
 deps:
-	go get 'bitbucket.org/mrhenry/forklift/deploypack/command'
+	go get 'github.com/fd/forklift/deploypack/command'
 
 .PHONY: deps build
